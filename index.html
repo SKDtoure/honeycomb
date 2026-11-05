@@ -84,9 +84,9 @@ function set(id, prefix, count, props) {
 }
 
 // Depths increase with the stacking order so nearer things always move more.
-const FLOWERS_BACK  = { depth: 0.35, origin: "50% 100%", swayDeg: 0.5 };  // swayDeg = smooth rotate/bend amount in degrees (set 0 to rely on the poses alone)
-const FLOWERS_MID   = { depth: 0.50, origin: "50% 100%", swayDeg: 0.8 };
-const FLOWERS_FRONT = { depth: 0.65, origin: "50% 100%", swayDeg: 1.2 };
+const FLOWERS_BACK  = { depth: 0.35, origin: "50% 100%", swayDeg: 1.2 };  // swayDeg = smooth rotate/bend amount in degrees (set 0 to rely on the poses alone)
+const FLOWERS_MID   = { depth: 0.50, origin: "50% 100%", swayDeg: 2.0 };
+const FLOWERS_FRONT = { depth: 0.65, origin: "50% 100%", swayDeg: 3.0 };
 const EYES          = { depth: 0.75 };
 
 // Bees. origin = the bee's centre as "x% y%" of the whole canvas (EDIT THIS for bee A so its tap-hop pivots around the bee).
